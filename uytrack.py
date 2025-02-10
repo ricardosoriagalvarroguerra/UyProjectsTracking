@@ -25,7 +25,7 @@ if not api_key:
 url = "https://api.iatistandard.org/datastore/transaction/select"
 
 # Búsqueda únicamente por 'recipient_country_code:UR'
-query = "recipient_country_code:UR"
+query = "recipient_country_code:UY"
 
 params = {
     "q": query,
